@@ -3,12 +3,49 @@
   <head>
     <!-- Imagem e texto -->
 <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-      <img src="imagem/imgres-1.png" width="30" height="30" class="d-inline-block align-top" alt="">
+  <a class="navbar-brand" href="">
+      <img src="imagem/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
       SaintLaurentStore
     </a>
   </nav>
-        <img src="imagem/YSL_logo.jpg" alt="Image" height="250" width="1250">
+  </nav>
+  <img src="imagem/SLS.png" class="rounded float-left" alt="imagem">          <img src="imagem/OIP.jpg" class="rounded float-right" alt="...">  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Ação</a>
+            <a class="dropdown-item" href="#">Outra ação</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Algo mais aqui</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Desativado</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </nav>
+  
   </div>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -16,7 +53,54 @@
   </head>
   <body>
     <h1></h1>
-
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="imagem/1632955966-slsummerss22runwayhr1.avif" alt="Primeiro Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="imagem/c36cb7735d8e27d63a36cad9c34878fe.jpg" alt="Segundo Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="imagem/saintlaruent-inverno2016-parismen-27.jpg" alt="Terceiro Slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="imagem/verao2024roupa.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">MACACÃO CASSANDRE STRAPLESS EM COTTON DRILL</h5>
+          <p class="card-text">MACACÃO CINTO TOMARA QUE CAIA, COM CALÇA DE PERNAS LARGAS COM BORDADO CASSANDRE NO BOLSO LATERAL E UM BUSTIER INTERNO.</p>
+          <p class="card-text"><small class="text-muted"></small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="imagem/verao2024roupa2.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">VESTIDO SAHARIENNE EM SARJA DE ALGODÃO</h5>
+          <p class="card-text">VESTIDO SAFARI COM CINTO NA ALTURA DO JOELHO FEITO COM ALGODÃO ORGÂNICO, COM ZÍPER BIDIRECIONAL E TOP DE MANGA COMPRIDA COM OMBROS CAÍDOS E BOLSOS DE REMEÇÃO.</p>
+          <p class="card-text"><small class="text-muted"></small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="imagem/roupa3verao2024.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">MACACÃO EM SARJA DE ALGODÃO</h5>
+          <p class="card-text">MACACÃO CINTADO FEITO COM ALGODÃO ORGÂNICO, COM UM TOP DE MANGA COMPRIDA COM OMBROS ACOLCHOADOS, BOLSOS DE REMENDO E CALÇAS DE PERNAS LARGAS.</p>
+          <p class="card-text"><small class="text-muted"></small></p>
+        </div>
+      </div>
+    </div>
+    </div>
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
